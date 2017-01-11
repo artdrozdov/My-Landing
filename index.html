@@ -17,7 +17,7 @@
     <div>
         <navigation></navigation>
     </div>
-    <div class="main main-raised">
+    <div class="main">
         <div id="fullpage">
             <div class="section">
                 <slide1></slide1>
@@ -34,12 +34,13 @@
 
     <script src="bower_components/material-kit/assets/js/bootstrap.min.js"></script>
     <script src="bower_components/material-kit/assets/js/material.min.js"></script>
-    <script src="bower_components/material-kit/assets/js/material-kit.js"></script>
     <script>
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 navigation: true,
                 navigationPosition: 'right',
+                slidesNavigation: true,
+                slidesNavPosition: 'bottom'
             });
         });
     </script>

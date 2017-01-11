@@ -1,0 +1,23 @@
+{
+    "name": "material",
+    "description": "",
+    "main": "index.html",
+    "authors": [
+        "ArtD"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "material-kit": "latest",
+        "fullpage": "latest",
+        "angularjs": "latest"
+    }
+}

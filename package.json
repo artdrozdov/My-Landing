@@ -1,0 +1,15 @@
+{
+    "name": "material",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm i && bower install && lite-server start",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ArtD",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.2.2"
+    }
+}

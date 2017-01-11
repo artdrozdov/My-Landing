@@ -18,7 +18,8 @@
     "dependencies": {
         "material-kit": "latest",
         "angularjs": "latest",
-        "jquery": "latest",
-        "fontawesome": "latest"
+        "fontawesome": "latest",
+        "fullpage.js": "latest",
+        "jquery": "latest"
     }
 }

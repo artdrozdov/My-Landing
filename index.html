@@ -6,39 +6,43 @@
     <link rel="stylesheet" href="/bower_components/material-kit/assets/css/bootstrap.min.css"></link>
     <link rel="stylesheet" href="/bower_components/material-kit/assets/css/material-kit.css"></link>
     <link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.min.css"></link>
+    <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.min.css"></link>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/fullpage.js/dist/jquery.fullpage.min.js"></script>
     <script src="bower_components/angularjs/angular.min.js"></script>
     <script src="app/app.js"></script>
 </head>
 
 <body>
-    <navigation></navigation>
-    <div class="wrapper">
-        <div class="header header-filter" style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">
-        </div>
-
-        <div class="main main-raised">
+    <div>
+        <navigation></navigation>
+    </div>
+    <div class="main main-raised">
+        <div id="fullpage">
             <div class="section">
-                <div class="container">
-                    <div id="fullpage">
-                        <div class="section">
-                            <slide1></slide1>
-                        </div>
-                        <div class="section">
-                            <slide2></slide2>
-                        </div>
-                        <div class="section">
-                            <slide3></slide3>
-                        </div>
-                    </div>
-                </div>
+                <slide1></slide1>
+            </div>
+            <div class="section">
+                <slide2></slide2>
+            </div>
+            <div class="section">
+                <slide3></slide3>
             </div>
         </div>
+    </div>
     </div>
 
     <script src="bower_components/material-kit/assets/js/bootstrap.min.js"></script>
     <script src="bower_components/material-kit/assets/js/material.min.js"></script>
     <script src="bower_components/material-kit/assets/js/material-kit.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                navigation: true,
+                navigationPosition: 'right',
+            });
+        });
+    </script>
 </body>
 
 </html>

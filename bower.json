@@ -17,7 +17,6 @@
     ],
     "dependencies": {
         "material-kit": "latest",
-        "fullpage": "latest",
         "angularjs": "latest",
         "jquery": "latest",
         "fontawesome": "latest"

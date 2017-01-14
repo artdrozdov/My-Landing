@@ -20,6 +20,7 @@
         "angularjs": "latest",
         "fontawesome": "latest",
         "fullpage.js": "latest",
-        "jquery": "latest"
+        "jquery": "latest",
+        "animate.css": "latest"
     }
 }

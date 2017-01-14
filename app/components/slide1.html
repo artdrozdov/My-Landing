@@ -7,11 +7,11 @@
                 <img src="app/assets/author.png" alt="Raised Image" class="img-thumbnail img-responsive img-raised artd-photo">
                 <div class="clearfix"></div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12" ng-controller="summaryController as cnt">
                 <h3>My name is Artem Drozdov</h3>
                 <p>Welcome to my personal homepage!</p>
                 <p>This page was created to replace an ordinal CV. As I trully believe that real craftsman don't need a CV:) </p>
-                <p>
+                <p>As a software engineer I've got <b>{{cnt.expirienceYears}} years</b> of commercial software development expirience. </p>
             </div>
         </div>
     </div>

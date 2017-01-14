@@ -27,3 +27,10 @@ angular.module("components").directive("slide3", function() {
 });
 
 var app = angular.module("Landing", ["components"]);
+
+app.controller("summaryController", function() {
+    var now = new Date();
+    var start = new Date(2013, 8, 1);
+    var diff = new Date(now - start);
+    this.expirienceYears = diff.getFullYear() - 1970;
+});
